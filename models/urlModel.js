@@ -16,7 +16,7 @@ const urlSchema = new mongoose.Schema(
     { timestamps: true }
 );
 
-// Here 'url' is the name of the collection for the given schema.
+// Below 'url' is the name of the collection for the given schema.
 const URL = mongoose.model('url', urlSchema);
 
 module.exports = URL;
